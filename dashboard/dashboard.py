@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data hasil gabungan dan cleaning
-merged_df = pd.read_csv("../all_data.csv")
+merged_df = pd.read_csv("dashboard/all_data.csv")
 # Judul Dashboard
 st.title("Dashboard Analisis E-Commerce Publik")
 st.markdown("Dashboard ini menampilkan insight dari transaksi pelanggan berdasarkan kota, metode pembayaran, dan pola transaksi.")
